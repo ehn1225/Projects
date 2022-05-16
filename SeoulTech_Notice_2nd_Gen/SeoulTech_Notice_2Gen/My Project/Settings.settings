@@ -1,0 +1,39 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="Custom1_Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Custom2_Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Custom1_Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Custom2_Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Custom3_Url" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Custom3_Name" Type="System.String" Scope="User">
+      <Value Profile="(Default)" />
+    </Setting>
+    <Setting Name="Cus_Color1" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">255, 127, 38</Value>
+    </Setting>
+    <Setting Name="Cus_color2" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">246, 152, 81</Value>
+    </Setting>
+    <Setting Name="Cus_color3" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">247, 178, 124</Value>
+    </Setting>
+    <Setting Name="Cus_color4" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">250, 203, 168</Value>
+    </Setting>
+    <Setting Name="Cus_color5" Type="System.Drawing.Color" Scope="User">
+      <Value Profile="(Default)">252, 229, 211</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>

@@ -1,0 +1,84 @@
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\bin\Debug\영장.exe.config
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\obj\Debug\Interop.WinHttp.dll
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\obj\Debug\영장.vbproj.ResolveComReference.cache
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\obj\Debug\영장.Form.resources
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\obj\Debug\영장.Resources.resources
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\obj\Debug\영장.vbproj.GenerateResource.Cache
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\bin\Debug\영장.exe
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\bin\Debug\영장.pdb
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\bin\Debug\영장.xml
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\obj\Debug\영장.exe
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\obj\Debug\영장.xml
+C:\Users\예찬\AppData\Local\Temporary Projects\영장\obj\Debug\영장.pdb
+C:\Users\예찬\Desktop\비베\영장\영장\bin\Debug\영장.exe.config
+C:\Users\예찬\Desktop\비베\영장\영장\obj\Debug\Interop.WinHttp.dll
+C:\Users\예찬\Desktop\비베\영장\영장\obj\Debug\영장.vbproj.ResolveComReference.cache
+C:\Users\예찬\Desktop\비베\영장\영장\obj\Debug\영장.xml
+C:\Users\예찬\Desktop\비베\영장\영장\obj\Debug\영장.pdb
+C:\Users\예찬\Desktop\비베\영장\영장\bin\Debug\영장.exe
+C:\Users\예찬\Desktop\비베\영장\영장\bin\Debug\영장.pdb
+C:\Users\예찬\Desktop\비베\영장\영장\bin\Debug\영장.xml
+C:\Users\예찬\Desktop\비베\영장\영장\obj\Debug\영장.Form.resources
+C:\Users\예찬\Desktop\비베\영장\영장\obj\Debug\영장.Resources.resources
+C:\Users\예찬\Desktop\비베\영장\영장\obj\Debug\영장.vbproj.GenerateResource.Cache
+C:\Users\예찬\Desktop\비베\영장\영장\obj\Debug\영장.exe
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\bin\Debug\영장.exe.config
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\obj\Debug\Interop.WinHttp.dll
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\obj\Debug\영장.vbproj.ResolveComReference.cache
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\obj\Debug\영장.exe
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\obj\Debug\영장.xml
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\obj\Debug\영장.pdb
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\bin\Debug\영장.exe
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\bin\Debug\영장.pdb
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\bin\Debug\영장.xml
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\obj\Debug\영장.Form.resources
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\obj\Debug\영장.Resources.resources
+C:\Users\예찬\Desktop\비베\작업\영장조회기\영장\obj\Debug\영장.vbproj.GenerateResource.Cache
+C:\Users\예찬\Desktop\영장조회기\영장\bin\Debug\영장.exe.config
+C:\Users\예찬\Desktop\영장조회기\영장\obj\Debug\Interop.WinHttp.dll
+C:\Users\예찬\Desktop\영장조회기\영장\obj\Debug\영장.vbproj.ResolveComReference.cache
+C:\Users\예찬\Desktop\영장조회기\영장\obj\Debug\영장.exe
+C:\Users\예찬\Desktop\영장조회기\영장\obj\Debug\영장.xml
+C:\Users\예찬\Desktop\영장조회기\영장\obj\Debug\영장.pdb
+C:\Users\예찬\Desktop\영장조회기\영장\bin\Debug\영장.exe
+C:\Users\예찬\Desktop\영장조회기\영장\bin\Debug\영장.pdb
+C:\Users\예찬\Desktop\영장조회기\영장\bin\Debug\영장.xml
+C:\Users\예찬\Desktop\영장조회기\영장\obj\Debug\영장.Form.resources
+C:\Users\예찬\Desktop\영장조회기\영장\obj\Debug\영장.Resources.resources
+C:\Users\예찬\Desktop\영장조회기\영장\obj\Debug\영장.vbproj.GenerateResource.Cache
+C:\Users\예찬\Desktop\비베\영장조회기\영장\bin\Debug\영장.exe.config
+C:\Users\예찬\Desktop\비베\영장조회기\영장\obj\Debug\Interop.WinHttp.dll
+C:\Users\예찬\Desktop\비베\영장조회기\영장\obj\Debug\영장.vbproj.ResolveComReference.cache
+C:\Users\예찬\Desktop\비베\영장조회기\영장\obj\Debug\영장.exe
+C:\Users\예찬\Desktop\비베\영장조회기\영장\obj\Debug\영장.xml
+C:\Users\예찬\Desktop\비베\영장조회기\영장\obj\Debug\영장.pdb
+C:\Users\예찬\Desktop\비베\영장조회기\영장\bin\Debug\영장.exe
+C:\Users\예찬\Desktop\비베\영장조회기\영장\bin\Debug\영장.pdb
+C:\Users\예찬\Desktop\비베\영장조회기\영장\bin\Debug\영장.xml
+C:\Users\예찬\Desktop\비베\영장조회기\영장\obj\Debug\영장.Form.resources
+C:\Users\예찬\Desktop\비베\영장조회기\영장\obj\Debug\영장.Resources.resources
+C:\Users\예찬\Desktop\비베\영장조회기\영장\obj\Debug\영장.vbproj.GenerateResource.Cache
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\bin\Debug\영장.exe.config
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\obj\Debug\Interop.WinHttp.dll
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\obj\Debug\영장.vbproj.ResolveComReference.cache
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\obj\Debug\영장.exe
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\obj\Debug\영장.xml
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\obj\Debug\영장.pdb
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\bin\Debug\영장.exe
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\bin\Debug\영장.pdb
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\bin\Debug\영장.xml
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\obj\Debug\영장.Form.resources
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\obj\Debug\영장.Resources.resources
+D:\작업(VB,VG)\비베\작업 비베\20150326(놋북)비베\영장조회기\영장\obj\Debug\영장.vbproj.GenerateResource.Cache
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\bin\Debug\영장.exe.config
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\obj\Debug\Interop.WinHttp.dll
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\obj\Debug\영장.vbproj.ResolveComReference.cache
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\obj\Debug\영장.exe
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\obj\Debug\영장.xml
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\obj\Debug\영장.pdb
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\bin\Debug\영장.exe
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\bin\Debug\영장.pdb
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\bin\Debug\영장.xml
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\obj\Debug\영장.Form.resources
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\obj\Debug\영장.Resources.resources
+D:\작업(VB,VG)\비베\작업\영장조회기\영장\obj\Debug\영장.vbproj.GenerateResource.Cache

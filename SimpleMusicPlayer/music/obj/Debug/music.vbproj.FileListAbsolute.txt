@@ -1,0 +1,133 @@
+C:\Users\예찬\AppData\Local\Temporary Projects\music\bin\Debug\music.exe.config
+C:\Users\예찬\AppData\Local\Temporary Projects\music\bin\Debug\music.exe
+C:\Users\예찬\AppData\Local\Temporary Projects\music\bin\Debug\music.pdb
+C:\Users\예찬\AppData\Local\Temporary Projects\music\bin\Debug\music.xml
+C:\Users\예찬\AppData\Local\Temporary Projects\music\obj\Debug\music.Form1.resources
+C:\Users\예찬\AppData\Local\Temporary Projects\music\obj\Debug\music.Resources.resources
+C:\Users\예찬\AppData\Local\Temporary Projects\music\obj\Debug\music.vbproj.GenerateResource.Cache
+C:\Users\예찬\AppData\Local\Temporary Projects\music\obj\Debug\music.exe
+C:\Users\예찬\AppData\Local\Temporary Projects\music\obj\Debug\music.xml
+C:\Users\예찬\AppData\Local\Temporary Projects\music\obj\Debug\music.pdb
+C:\Users\예찬\AppData\Local\Temporary Projects\music\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\예찬\AppData\Local\Temporary Projects\music\obj\Debug\music.vbproj.ResolveComReference.cache
+D:\music\music\bin\Debug\music.exe.config
+D:\music\music\obj\Debug\Interop.MediaPlayer.dll
+D:\music\music\obj\Debug\Interop.WMPLib.dll
+D:\music\music\obj\Debug\AxInterop.WMPLib.dll
+D:\music\music\obj\Debug\music.vbproj.ResolveComReference.cache
+D:\music\music\obj\Debug\music.exe
+D:\music\music\obj\Debug\music.xml
+D:\music\music\obj\Debug\music.pdb
+D:\music\music\bin\Debug\music.exe
+D:\music\music\bin\Debug\music.pdb
+D:\music\music\bin\Debug\music.xml
+D:\music\music\bin\Debug\Interop.WMPLib.dll
+D:\music\music\bin\Debug\AxInterop.WMPLib.dll
+D:\music\music\obj\Debug\music.Form1.resources
+D:\music\music\obj\Debug\music.Form2.resources
+D:\music\music\obj\Debug\music.Resources.resources
+D:\music\music\obj\Debug\music.vbproj.GenerateResource.Cache
+D:\music\music\bin\Debug\gTrackBar.dll
+D:\music\music\obj\Debug\music.vbprojResolveAssemblyReference.cache
+C:\Users\예찬\Desktop\비베\music\music\bin\Debug\music.exe.config
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\Interop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\music.vbproj.ResolveComReference.cache
+C:\Users\예찬\Desktop\비베\music\music\bin\Debug\music.exe
+C:\Users\예찬\Desktop\비베\music\music\bin\Debug\music.pdb
+C:\Users\예찬\Desktop\비베\music\music\bin\Debug\music.xml
+C:\Users\예찬\Desktop\비베\music\music\bin\Debug\gTrackBar.dll
+C:\Users\예찬\Desktop\비베\music\music\bin\Debug\Interop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\music\music\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\music.vbprojResolveAssemblyReference.cache
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\music.Form1.resources
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\music.Form2.resources
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\music.Resources.resources
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\music.vbproj.GenerateResource.Cache
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\music.exe
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\music.xml
+C:\Users\예찬\Desktop\비베\music\music\obj\Debug\music.pdb
+C:\Users\예찬\Desktop\비베\music\music\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\예찬\Desktop\비베\music\music\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+D:\music\music\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+D:\music\music\bin\Debug\Microsoft.WindowsAPICodePack.Shell.xml
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\music.exe.config
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\Interop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\music.vbproj.ResolveComReference.cache
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\music.exe
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\music.xml
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\music.pdb
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\music.exe
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\music.pdb
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\music.xml
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\gTrackBar.dll
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\Interop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\music.vbprojResolveAssemblyReference.cache
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\music.Form1.resources
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\music.Resources.resources
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\music.vbproj.GenerateResource.Cache
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\taglib-sharp.dll
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\예찬\Desktop\비베\작업\music (2)\music\obj\Debug\music.Form2.resources
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\music.exe.config
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\Interop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\music.vbproj.ResolveComReference.cache
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\music.exe
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\music.xml
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\music.pdb
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\music.exe
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\music.pdb
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\music.xml
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\gTrackBar.dll
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\taglib-sharp.dll
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\Interop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\music.vbprojResolveAssemblyReference.cache
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\music.Form1.resources
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\music.Form2.resources
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\music.Resources.resources
+C:\Users\예찬\Desktop\비베\작업\music (2) (4)\music\obj\Debug\music.vbproj.GenerateResource.Cache
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\music.exe.config
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\Interop.MediaPlayer.dll
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\Interop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.vbproj.ResolveComReference.cache
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.exe
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.xml
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.pdb
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\music.exe
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\music.pdb
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\music.xml
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\gTrackBar.dll
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\Microsoft.WindowsAPICodePack.Shell.dll
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\taglib-sharp.dll
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\Interop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music\music\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.vbprojResolveAssemblyReference.cache
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.Form1.resources
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.Form2.resources
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.Resources.resources
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.vbproj.GenerateResource.Cache
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.newplaylist.resources
+C:\Users\예찬\Desktop\비베\작업\music\music\obj\Debug\music.Form3.resources
+D:\작업 비베\music\music\bin\Debug\music.exe.config
+D:\작업 비베\music\music\obj\Debug\Interop.MediaPlayer.dll
+D:\작업 비베\music\music\obj\Debug\Interop.WMPLib.dll
+D:\작업 비베\music\music\obj\Debug\AxInterop.WMPLib.dll
+D:\작업 비베\music\music\obj\Debug\music.vbproj.ResolveComReference.cache
+D:\작업 비베\music\music\obj\Debug\music.exe
+D:\작업 비베\music\music\obj\Debug\music.xml
+D:\작업 비베\music\music\obj\Debug\music.pdb

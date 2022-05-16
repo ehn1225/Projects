@@ -1,0 +1,288 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+music
+</name>
+</assembly>
+<members>
+<member name="P:music.My.Resources.Resources.ResourceManager">
+	<summary>
+  이 클래스에서 사용하는 캐시된 ResourceManager 인스턴스를 반환합니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.Culture">
+	<summary>
+  이 강력한 형식의 리소스 클래스를 사용하여 모든 리소스 조회에 대한 현재 스레드의 CurrentUICulture
+  속성을 재정의합니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423417376_arrow_left_01_64">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423418943_play">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423419011_add_file">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423420162_folder_cd">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423423073_add_file">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423423073_add_file1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423423073_add_file2">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423423097_folder">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423423114_add_property">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423423158_add_folder">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423423158_add_folder1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423423291_trash">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423423311_View_Details">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423423311_View_Details1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423426689_arrow_right_01_64">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423426689_arrow_right_01_641">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423429885_play_128">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423429966_play_64">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423429994_pause_64">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423430900_stop">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423570255_volume_down">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423570277_volume_up_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423570277_volume_up_1_1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423570357_mute">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423570357_mute_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423728728_sync_01_24_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423728728_sync_01_24_1_1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1423825003_refresh_01_24zz_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1427480470_search_01_24">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1427517194_add_list">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1427541173_save">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources._1427648552_timer">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.fold">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.folder_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.folder_1_1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image1_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image1_1_1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image1_1_2">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image1_1_3">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image1_1_4">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image11">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image11_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image11_2_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image2_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image2_1_1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image22">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image22_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image22_1_1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image22_1_2">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image56_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.image56_1_1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.KakaoTalk_20150209_214142596">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.left1_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.play2_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.refr24_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.refrewh_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.right3_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.tr4_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.vol2">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.vol2b">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.vol2b1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.휜_사운드1">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.휜_사운드2_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.휜_사운드3">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="P:music.My.Resources.Resources.휜_사운드3_1_">
+	<summary>
+  System.Drawing.Bitmap 형식의 지역화된 리소스를 찾습니다.
+</summary>
+</member><member name="T:music.My.Resources.Resources">
+	<summary>
+  지역화된 문자열 등을 찾기 위한 강력한 형식의 리소스 클래스입니다.
+</summary>
+</member>
+</members>
+</doc>
