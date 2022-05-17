@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.example.lyc_project.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="com.example.lyc_project.ui.dashboard.DashboardFragment"
+        android:label="@string/title_dashboard"
+        tools:layout="@layout/fragment_dashboard" >
+
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_item_append"
+            app:destination="@id/navigation_item_append" />
+        <action
+            android:id="@+id/action_navigation_dashboard_to_navigation_item_view"
+            app:destination="@id/navigation_item_view" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="com.example.lyc_project.ui.notifications.NotificationsFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_notifications" />
+
+    <fragment
+        android:id="@+id/navigation_item_append"
+        android:name="com.example.lyc_project.ui.item.ItemAppendFragment"
+        android:label="NONE"
+        tools:layout="@layout/fragment_item_append" >
+        <action
+            android:id="@+id/action_navigation_item_append_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard" />
+        <action
+            android:id="@+id/action_navigation_item_append_to_navigation_item_view"
+            app:destination="@id/navigation_item_view" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/navigation_item_view"
+        android:name="com.example.lyc_project.ui.item.ItemViewFragment"
+        android:label="@string/title_setting"
+        tools:layout="@layout/fragment_item_view" >
+        <action
+            android:id="@+id/action_navigation_item_view_to_navigation_dashboard"
+            app:destination="@id/navigation_dashboard" />
+        <action
+            android:id="@+id/action_navigation_item_view_to_navigation_item_append"
+            app:destination="@id/navigation_item_append" />
+        <action
+            android:id="@+id/action_navigation_item_view_to_itemViewDetailFragment"
+            app:destination="@id/navigation_item_view_detail" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_item_view_detail"
+        android:name="com.example.lyc_project.ui.item.ItemViewDetailFragment"
+        android:label="ItemViewDetailFragment" >
+        <action
+            android:id="@+id/action_navigation_item_view_detail_to_navigation_item_view"
+            app:destination="@id/navigation_item_view" />
+    </fragment>
+
+
+</navigation>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingHorizontal="10dp"
+    android:background="#EAEFF0"
+    android:padding="5dp"
+    tools:context=".ui.notifications.NotificationsFragment">
+
+    <TextView
+        android:background="#FFFFFF"
+        android:id="@+id/notification_dev_info"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:text="개발정보" />
+
+    <TextView
+        android:background="#FFFFFF"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:padding="10dp"
+        android:textColor="#000000"
+        android:text="개발자모드" />
+    <TextView
+        android:background="#FFFFFF"
+        android:id="@+id/item_list_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="25dp"
+        android:paddingVertical="10dp"
+        android:textColor="#000000"
+        android:text="[개발자모드] 저장된 아이템 리스트 출력" />
+    <TextView
+        android:background="#FFFFFF"
+        android:id="@+id/item_list_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="25dp"
+        android:paddingVertical="10dp"
+        android:textColor="#000000"
+        android:text="[개발자모드] 저장된 아이템 전체 삭제" />
+    <TextView
+        android:background="#FFFFFF"
+        android:id="@+id/item_image_show"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="25dp"
+        android:paddingVertical="10dp"
+        android:textColor="#000000"
+        android:text="[개발자모드] 저장된 이미지 리스트 출력" />
+    <TextView
+        android:background="#FFFFFF"
+        android:id="@+id/item_image_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="25dp"
+        android:paddingVertical="10dp"
+        android:textColor="#000000"
+        android:text="[개발자모드] 저장된 이미지 전체 삭제" />
+    <TextView
+        android:background="#FFFFFF"
+        android:id="@+id/item_all_delete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="15sp"
+        android:paddingLeft="25dp"
+        android:paddingVertical="10dp"
+        android:textColor="#000000"
+        android:text="[개발자모드] 전체초기화" />
+
+</LinearLayout>
