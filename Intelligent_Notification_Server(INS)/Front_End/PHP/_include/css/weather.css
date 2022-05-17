@@ -1,0 +1,219 @@
+@charset "UTF-8";
+
+/* Incomms WS Part LKK 170911 */
+@keyframes notice_color{
+    30%{color: white;}
+    70%{color: #F06292;}
+}
+#font_notice{
+    animation-name: notice_color;
+    animation-duration: 3s;
+    animation-iteration-count : infinite; 
+}
+
+.wt_status .lv1 {color: #32a1ff;}
+.wt_status .lv2 {color: #00a83d;}
+.wt_status .lv3 {color: #fd9b5a;}
+.wt_status .lv4 {color: #ff5959;}
+.wt_status .lv_none {color: #8f8f8f;}
+.wt_status .min {color: #00a1ed; padding-right: 3px}
+.wt_status .max {color: #f53f3c; padding-left: 3px}
+.wt_status .slash {
+    font-weight: normal;
+    color: #8f8f8f;
+}
+
+.wt_status li,.wt_status  p,.wt_status  ul {
+    margin: 0;
+    padding: 0;
+}
+
+.wt_status ul {list-style: none}
+.wt_status em,i {font-style: normal}
+
+.wt_status {
+    font-family: -apple-system, BlinkMacSystemFont, HelveticaNeue, AppleSDGothicNeo-Regular, sans-serif;
+    overflow: hidden;
+    padding : 40px 0;
+    line-height:20px;
+    position: absolute;
+    left: 0;
+    top: 50%;
+    margin-top: -160px;
+}
+.wt_status .degree_code:after {
+    content: '\00b0';
+    display: inline-block;
+    margin-top: -1px;
+    vertical-align: top
+}
+
+.wt_status .status {
+    text-align: center;
+    position: relative;
+    margin-bottom: 5px;
+    padding: 0;
+    white-space: nowrap
+}
+
+.wt_status .status .wt_img {
+    position: relative;
+    display: inline-block;
+    margin-right: 4px;
+    vertical-align: middle
+}
+
+.wt_status .status .wt_text {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.wt_status .status .wt_text strong {
+    position: relative;
+    display: block;
+    font-weight: normal;
+    text-align: left;
+}
+
+.wt_status .status .wt_text strong .figure {
+    font-size: 60px;
+    line-height: 60px;
+    color: #242424
+}
+
+.wt_status .status .wt_text strong .degree_code:after {
+    content: '\00b0 C';
+    margin: -14px 0 0 2px;
+    font-size: 23px;
+}
+
+.wt_status .status .wt_text .chill_temp {
+    display: block;
+    font-size: 15px;
+    color: #666;
+    text-align: left
+}
+
+.wt_status .status .wt_text .chill_temp em {
+    padding-left: 4px
+}
+
+.wt_status .wt_summary {
+    text-align: center
+}
+
+.wt_status .wt_summary>p {
+    font-size: 21px;
+    color: #242424
+}
+
+.wt_status .wt_summary>p .figure {
+    padding-left: 5px
+}
+
+.wt_status .wt_summary .main {
+    font-size: 21px;
+    color: #424242
+}
+
+.wt_status .link_dust {
+    display: inline-block;
+    margin-top: 7px;
+    font-size: 15px;
+    color: #8f8f8f;
+    text-align: center
+}
+
+.wt_status .link_dust .figure {
+    position: relative;
+    padding-left: 4px
+}
+
+.wt_status .status_list {
+    padding: 21px 5px 0
+}
+
+.wt_status .status_list ul {
+    display: table;
+    width: 100%;
+    table-layout: fixed
+}
+
+.wt_status .status_list li {
+    position: relative;
+    display: table-cell;
+    white-space: nowrap;
+    text-align: center;
+    color: #424242;
+}
+
+.wt_status .status_list li strong {
+    display: block;
+    font-size: 15px;
+    color: #8f8f8f;
+    font-weight: normal
+}
+
+.wt_status .status_list li span {
+    font-size: 15px;
+}
+
+.wt_status .status_list li span .num{
+    margin-right:4px;
+}
+.wt_status .status_list li em {
+    font-weight: bold;
+    color: #40b8f1;
+}
+
+
+.wt_status .status_list li+li:after {
+    content: '';
+    position: absolute;
+    top: 2px;
+    bottom: 4px;
+    left: 0;
+    width: 1px;
+    background: #f4f7f8
+}
+
+.wt_status .ico_state {
+    display: block;
+    width: 100px;
+    height: 100px;
+    background: url(../img/sp_wt_status.png) no-repeat;
+    background-size: 615px 540px;
+    -webkit-background-size: 615px 540px
+}
+
+.wt_status .ico_state.ws1 {background-position: 0 0}
+.wt_status .ico_state.ws2 {background-position: -103px 0}
+.wt_status .ico_state.ws3 {background-position: -206px 0}
+.wt_status .ico_state.ws4 {background-position: -309px 0}
+.wt_status .ico_state.ws5 {background-position: -412px 0}
+.wt_status .ico_state.ws6 {background-position: -515px 0}
+.wt_status .ico_state.ws7 {background-position: 0 -110px}
+.wt_status .ico_state.ws8 {background-position: -103px -110px}
+.wt_status .ico_state.ws9 {background-position: -206px -110px}
+.wt_status .ico_state.ws10 {background-position: -309px -110px}
+.wt_status .ico_state.ws11 {background-position: -412px -110px}
+.wt_status .ico_state.ws12 {background-position: -515px -110px}
+.wt_status .ico_state.ws13 {background-position: 0 -220px}
+.wt_status .ico_state.ws14 {background-position: -103px -220px}
+.wt_status .ico_state.ws15 {background-position: -206px -220px}
+.wt_status .ico_state.ws16 {background-position: -309px -220px}
+.wt_status .ico_state.ws17 {background-position: -412px -220px}
+.wt_status .ico_state.ws18 {background-position: -515px -220px}
+.wt_status .ico_state.ws19 {background-position: 0 -330px}
+.wt_status .ico_state.ws20 {background-position: -103px -330px}
+.wt_status .ico_state.ws21 {background-position: -206px -330px}
+.wt_status .ico_state.ws22 {background-position: -309px -330px}
+.wt_status .ico_state.ws23 {background-position: -412px -330px}
+.wt_status .ico_state.ws24 {background-position: -515px -330px}
+.wt_status .ico_state.ws25 {background-position: 0 -440px}
+.wt_status .ico_state.ws26 {background-position: -103px -440px}
+.wt_status .ico_state.ws27 {background-position: -206px -440px}
+.wt_status .ico_state.ws28 {background-position: -309px -440px}
+.wt_status .ico_state.ws29 {background-position: -412px -440px}
+.wt_status .ico_state.ws30 {background-position: -515px -440px}
