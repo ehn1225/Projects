@@ -177,11 +177,11 @@ Public Class Form1
                     End If
                     Dim title_temp As String = Split(Split(temp, "<td  class=""tit dn2"">")(1), "</td>")(0)
                     listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(title_temp, "'>")(1), "</a")(0)) '게시글 제목
-                    listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(temp, "<td class=""dn4"" style=""text-align: center;"">")(1), "</td>")(0)) '게시자
                     listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(temp, "<td class=""dn5"" style=""text-align: center;"">")(1), "</td>")(0)) '게시일자
+                    listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(temp, "<td class=""dn4"" style=""text-align: center;"">")(1), "</td>")(0)) '게시자
                     listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Url, "?")(0)) '게시글 상위주소
                     listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(temp, "<a href='")(1), "'>")(0)) '게시글 주소
-                    Dim UploadDate As DateTime = DateTime.Parse(listview(call_listview_num).Items(Listview_index).SubItems(3).Text) '오늘 - 업로드일 차이로 색상 선택
+                    Dim UploadDate As DateTime = DateTime.Parse(listview(call_listview_num).Items(Listview_index).SubItems(2).Text) '오늘 - 업로드일 차이로 색상 선택
                     If (UploadDate > TODAY.AddDays(-5)) Then
                         Paint_cell_color(call_listview_num, (TODAY - UploadDate).Days, Listview_index)
                     End If
@@ -201,11 +201,11 @@ Public Class Form1
                     End If
                     Dim title_temp As String = Split(Split(temp, "<td class=""body_col_title dn2"">")(1), "</td>")(0)
                     listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(title_temp, "'>")(1), "</a")(0)) '게시글 제목
-                    listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(temp, "<td class=""body_col_user dn4"" align=""center"">")(1), "</td>")(0)) '게시자
                     listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(temp, "<td class=""body_col_regdate dn5"" align=""center"">")(1), "</td>")(0)) '게시일자
+                    listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(temp, "<td class=""body_col_user dn4"" align=""center"">")(1), "</td>")(0)) '게시자
                     listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Url, "?")(0)) '게시글 상위주소
                     listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(temp, "<a href='")(1), "'>")(0)) '게시글 주소
-                    Dim UploadDate As DateTime = DateTime.Parse(listview(call_listview_num).Items(Listview_index).SubItems(3).Text) '오늘 - 업로드일 차이로 색상 선택
+                    Dim UploadDate As DateTime = DateTime.Parse(listview(call_listview_num).Items(Listview_index).SubItems(2).Text) '오늘 - 업로드일 차이로 색상 선택
                     If (UploadDate > TODAY.AddDays(-5)) Then
                         Paint_cell_color(call_listview_num, (TODAY - UploadDate).Days, Listview_index)
                     End If
@@ -518,6 +518,10 @@ Public Class Form1
     End Sub
 
     Private Sub ChromeThemeContainer1_Click_1(sender As Object, e As EventArgs) Handles ChromeThemeContainer1.Click
+
+    End Sub
+
+    Private Sub ChromeTabcontrol1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ChromeTabcontrol1.SelectedIndexChanged
 
     End Sub
 End Class
