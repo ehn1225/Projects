@@ -22,7 +22,7 @@
 - Front-End 웹페이지
   - <img src="https://github.com/ehn1225/Projects/assets/5174517/3a8660f7-90bb-4289-acba-192e05064d04" width="700"/>
 
-- VB.Net 프로그램
+- Back-End VB.Net 프로그램(Parser)
   - <img src="https://github.com/ehn1225/Projects/assets/5174517/f38d5d3b-094e-4132-be9e-6aa8d800abc1" width="700"/>
 
 ## 참고자료
