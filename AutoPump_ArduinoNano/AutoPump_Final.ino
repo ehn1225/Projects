@@ -1,60 +1,64 @@
-#include <LowPower.h>
+//2022-11-25 아두이노 나노 워터펌프
+unsigned long last_time = 0; //마지막으로 동작한 시각
+unsigned long run_time = 0;  //펌프가 작동 시작한 시각
+unsigned long before_time = 0; //ERR 표시용
 
-//Develop Ver. 180728
+boolean is_run = false; //펌프 동작 여부
+boolean is_err = false; //에러 발생 여부
 
-#define MAX 2^32-1
-int Watersenser_pin = A2;      //수위센서
-int Speaker_pin = 2; //부저
-int LED_pin = 3; // 에러 led
-int Swich_pin = 4; //수동 스위치
-int Pump_pin = 5; //릴레이
-int Runtime = 3000; //작동시간(1s = 1000)
-int Water_depth(void){return analogRead(Watersenser_pin);}
-unsigned long Pre_Time = 0;
+int pin_run = 5;      //릴레이
+int pin_beep = 4;    //부저
+int pin_lowSensor = 2;
+int pin_highSensor = 3;
 
-void PUMP(int RunTime){//펌프에 RunTime만큼 전원을 인가함.
-   digitalWrite(Pump_pin, HIGH);
-   delay(RunTime);
-   digitalWrite(Pump_pin, LOW);
-  }
-
-unsigned long Compare(unsigned long now, unsigned long prev)
-{
-  if (now>prev) return (now-prev);
-  else return (((MAX-prev)+now+1));
+void pump_run() {
+  is_run = true;
+  run_time = millis();
+  digitalWrite(pin_run, HIGH);
+  //Serial.println("Pump Start");
+}
+void pump_stop() {
+  is_run = false;
+  last_time = millis();
+  digitalWrite(pin_run, LOW);
+  //Serial.println("Pump Stop");
 }
 
 void setup() {
-  pinMode(LED_pin, OUTPUT); 
-  pinMode(Pump_pin, OUTPUT);
-  pinMode(Swich_pin, INPUT_PULLUP);
+  //Serial.begin(115200);
+  pinMode(pin_run, OUTPUT);
+  pinMode(pin_beep, OUTPUT);
+  pinMode(pin_lowSensor, INPUT_PULLUP);
+  pinMode(pin_highSensor, INPUT_PULLUP);
+
+  delay(100);
 }
 
-void loop(){
-  int Depth_of_water = Water_depth();
-  unsigned long NowTime = millis();
+void loop() {
+  if (digitalRead(pin_highSensor) == LOW && digitalRead(pin_lowSensor) == LOW) {
+    if (!is_run) pump_run();
+  }
 
-  if(Depth_of_water >= 300){//수위감지센서의 아날로그 값이 300 이상일 경우(물이 닿을 경우)
-    if(Compare(NowTime, Pre_Time) >= Runtime * 2 && digitalRead(LED_pin) == LOW){//작동이 연달아 되지 않고 에러상태가 아닐 때
-      PUMP(Runtime);
-      Pre_Time = NowTime;}
-     else{digitalWrite(LED_pin, HIGH);}//에러발생
-   }
-   
-    if(digitalRead(LED_pin) == HIGH){//에러가 발생할 경우 LED를 깜빡이며 부저로 알림
-        digitalWrite(LED_pin, LOW);
-        delay(1000);
-        digitalWrite(LED_pin, HIGH);
-        tone(Speaker_pin,750,500);
-        if(Depth_of_water == 0){ //오류 중  수위감지센서에서 물이 없어진다면 오류에서 벗어남
-          delay(1000);
-          digitalWrite(LED_pin, LOW);}
-        }
-  
-    if(digitalRead(Swich_pin) == LOW){ //수동조작 버튼으로 펌프 작동
-        digitalWrite(LED_pin, LOW);
-        PUMP(Runtime);}  //수동조작
-        
-delay(1000);
+  if (is_run) { //작동 중일때
+    if (millis() - run_time > 180000) { //타임아웃일 경우
+      digitalWrite(pin_run, LOW);
+      is_err = true;
+    }
+  }
+
+  if (digitalRead(pin_lowSensor) == HIGH) { //수위가 최저 수위일 경우
+    if (is_run) pump_stop();
+  }
+
+  if (is_err) { //에러발생시 LED와 BEEP로 경고.
+    //Serial.println("ERROR OCCURE");
+    if (before_time + 500 < millis()) {
+      tone(pin_beep, 400);
+    }
+    if (before_time + 1000 < millis()) {
+      before_time = millis();
+      noTone(pin_beep);
+    }
+  }
+  delay(100);
 }
-

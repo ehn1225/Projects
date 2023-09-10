@@ -6,7 +6,7 @@ Imports System.ComponentModel
 ' E-mail : ehn1225@naver.com
 ' 제작년일(Created on) : 2018-07-31
 ' 학습의 목적을 벗어난 영리행위 및 무단 수정, 배포를 금지합니다.
-' 마지막 수정(Last Modified) : 2022-05-15 (다운로드 주소 부분 수정)
+' 마지막 수정(Last Modified) : 2023-08-10 (다운로드 주소 부분 수정)
 
 Public Class Form1
     Dim Winhttp As New WinHttp.WinHttpRequest
@@ -82,6 +82,7 @@ Public Class Form1
             downloadalert.Text = "다운로드 상태 : 다운로드 중"
             For i = 1 To countnotice
                 Temp = Split(Split(ResultTemp, "<a href=""")(i), """ class="""">")(0) 'Temp에 다운로드 주소를 대입
+                Temp = Temp.Replace("amp;", "")
                 Name = Split(Split(ResultTemp, "<span class=""name"">")(i), "</span>")(0) '다운로드 항목의 이름
                 download = New WebClient()
                 download.Headers.Add("user-agent", "Mozilla/4.0 (compatible; MSIE 6.0; Windows NT 5.2; .NET CLR 1.0.3705;)")
