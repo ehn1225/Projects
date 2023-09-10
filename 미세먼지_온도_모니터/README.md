@@ -26,5 +26,5 @@
 <img src="https://github.com/ehn1225/Projects/assets/5174517/43ad7e83-2cca-4817-8af8-141076597695" width="700"/>
 
 ## Reference
-[온습도 센서 DTH11](http://deneb21.tistory.com/207)
-[미세먼지센서](https://m.blog.naver.com/dokkosam/221038484240)
+- [온습도 센서 DTH11](http://deneb21.tistory.com/207)
+- [미세먼지센서](https://m.blog.naver.com/dokkosam/221038484240)
