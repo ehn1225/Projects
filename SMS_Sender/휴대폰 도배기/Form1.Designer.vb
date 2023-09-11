@@ -25,25 +25,25 @@ Partial Class Form1
         Me.components = New System.ComponentModel.Container()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form1))
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
-        Me.InfluenceTheme1 = New 휴대폰_도배기.InfluenceTheme()
+        Me.InfluenceTheme1 = New SMS_Sender.InfluenceTheme()
         Me.Label9 = New System.Windows.Forms.Label()
         Me.Button2 = New System.Windows.Forms.Button()
         Me.Label8 = New System.Windows.Forms.Label()
         Me.text2 = New System.Windows.Forms.TextBox()
         Me.Label6 = New System.Windows.Forms.Label()
         Me.Label5 = New System.Windows.Forms.Label()
-        Me.text7 = New 휴대폰_도배기.InfluenceTextBox()
+        Me.text7 = New SMS_Sender.InfluenceTextBox()
         Me.Label7 = New System.Windows.Forms.Label()
         Me.Label4 = New System.Windows.Forms.Label()
-        Me.text6 = New 휴대폰_도배기.InfluenceTextBox()
-        Me.text5 = New 휴대폰_도배기.InfluenceTextBox()
+        Me.text6 = New SMS_Sender.InfluenceTextBox()
+        Me.text5 = New SMS_Sender.InfluenceTextBox()
         Me.Label3 = New System.Windows.Forms.Label()
-        Me.text4 = New 휴대폰_도배기.InfluenceTextBox()
+        Me.text4 = New SMS_Sender.InfluenceTextBox()
         Me.Label2 = New System.Windows.Forms.Label()
-        Me.text3 = New 휴대폰_도배기.InfluenceTextBox()
+        Me.text3 = New SMS_Sender.InfluenceTextBox()
         Me.Button1 = New System.Windows.Forms.Button()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.Text1 = New 휴대폰_도배기.InfluenceTextBox()
+        Me.Text1 = New SMS_Sender.InfluenceTextBox()
         Me.InfluenceTheme1.SuspendLayout()
         Me.SuspendLayout()
         '
@@ -308,22 +308,22 @@ Partial Class Form1
         Me.ResumeLayout(False)
 
     End Sub
-    Friend WithEvents InfluenceTheme1 As 휴대폰_도배기.InfluenceTheme
+    Friend WithEvents InfluenceTheme1 As SMS_Sender.InfluenceTheme
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents Text1 As 휴대폰_도배기.InfluenceTextBox
+    Friend WithEvents Text1 As SMS_Sender.InfluenceTextBox
     Friend WithEvents Button1 As System.Windows.Forms.Button
     Friend WithEvents Timer1 As System.Windows.Forms.Timer
     Friend WithEvents Label3 As System.Windows.Forms.Label
-    Friend WithEvents text4 As 휴대폰_도배기.InfluenceTextBox
+    Friend WithEvents text4 As SMS_Sender.InfluenceTextBox
     Friend WithEvents Label2 As System.Windows.Forms.Label
-    Friend WithEvents text3 As 휴대폰_도배기.InfluenceTextBox
+    Friend WithEvents text3 As SMS_Sender.InfluenceTextBox
     Friend WithEvents Label4 As System.Windows.Forms.Label
-    Friend WithEvents text5 As 휴대폰_도배기.InfluenceTextBox
+    Friend WithEvents text5 As SMS_Sender.InfluenceTextBox
     Friend WithEvents Label5 As System.Windows.Forms.Label
-    Friend WithEvents text7 As 휴대폰_도배기.InfluenceTextBox
+    Friend WithEvents text7 As SMS_Sender.InfluenceTextBox
     Friend WithEvents Label6 As System.Windows.Forms.Label
     Friend WithEvents Label7 As System.Windows.Forms.Label
-    Friend WithEvents text6 As 휴대폰_도배기.InfluenceTextBox
+    Friend WithEvents text6 As SMS_Sender.InfluenceTextBox
     Friend WithEvents text2 As System.Windows.Forms.TextBox
     Friend WithEvents Label8 As System.Windows.Forms.Label
     Friend WithEvents Button2 As System.Windows.Forms.Button

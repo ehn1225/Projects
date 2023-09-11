@@ -23,14 +23,14 @@ Partial Class Form2
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(Form2))
-        Me.InfluenceTheme1 = New 휴대폰_도배기.InfluenceTheme()
+        Me.InfluenceTheme1 = New SMS_Sender.InfluenceTheme()
         Me.CheckBox1 = New System.Windows.Forms.CheckBox()
-        Me.InfluenceButton2 = New 휴대폰_도배기.InfluenceButton()
-        Me.Button1 = New 휴대폰_도배기.InfluenceButton()
+        Me.InfluenceButton2 = New SMS_Sender.InfluenceButton()
+        Me.Button1 = New SMS_Sender.InfluenceButton()
         Me.Label2 = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
-        Me.TextBox2 = New 휴대폰_도배기.InfluenceTextBox()
-        Me.TextBox1 = New 휴대폰_도배기.InfluenceTextBox()
+        Me.TextBox2 = New SMS_Sender.InfluenceTextBox()
+        Me.TextBox1 = New SMS_Sender.InfluenceTextBox()
         Me.InfluenceTheme1.SuspendLayout
         Me.SuspendLayout
         '
@@ -146,12 +146,12 @@ Partial Class Form2
         Me.ResumeLayout(false)
 
 End Sub
-    Friend WithEvents InfluenceTheme1 As 휴대폰_도배기.InfluenceTheme
-    Friend WithEvents Button1 As 휴대폰_도배기.InfluenceButton
+    Friend WithEvents InfluenceTheme1 As SMS_Sender.InfluenceTheme
+    Friend WithEvents Button1 As SMS_Sender.InfluenceButton
     Friend WithEvents Label2 As System.Windows.Forms.Label
     Friend WithEvents Label1 As System.Windows.Forms.Label
-    Friend WithEvents TextBox2 As 휴대폰_도배기.InfluenceTextBox
-    Friend WithEvents TextBox1 As 휴대폰_도배기.InfluenceTextBox
-    Friend WithEvents InfluenceButton2 As 휴대폰_도배기.InfluenceButton
+    Friend WithEvents TextBox2 As SMS_Sender.InfluenceTextBox
+    Friend WithEvents TextBox1 As SMS_Sender.InfluenceTextBox
+    Friend WithEvents InfluenceButton2 As SMS_Sender.InfluenceButton
     Friend WithEvents CheckBox1 As System.Windows.Forms.CheckBox
 End Class
