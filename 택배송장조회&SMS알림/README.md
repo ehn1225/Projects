@@ -12,7 +12,8 @@
   - 현재는 서비스 종료되어 이용 불가
 
 ## 실행 화면
-<img src="https://github.com/ehn1225/Projects/assets/5174517/2154c1ee-46f5-4236-bff4-dc7397eaabbb" width="700"/>
+<img src="https://github.com/ehn1225/Projects/assets/5174517/68c10b85-ff7e-42e6-83cd-db1705a9e6b6" width="700"/>
+<img src="https://github.com/ehn1225/Projects/assets/5174517/5b0324a4-2fe2-4e76-9202-d986f67185fb" width="700"/>
 
 ## 참고자료
 [SMS_Sender](https://github.com/ehn1225/Projects/tree/master/SMS_Sender)
