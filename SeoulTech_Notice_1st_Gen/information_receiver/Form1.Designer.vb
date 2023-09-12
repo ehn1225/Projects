@@ -56,6 +56,7 @@ Partial Class Form1
         '
         Me.ListView1.Columns.AddRange(New System.Windows.Forms.ColumnHeader() {Me.ColumnHeader1, Me.ColumnHeader2, Me.ColumnHeader3, Me.ColumnHeader4})
         Me.ListView1.FullRowSelect = True
+        Me.ListView1.HideSelection = False
         Me.ListView1.LabelWrap = False
         Me.ListView1.Location = New System.Drawing.Point(12, 53)
         Me.ListView1.MultiSelect = False
@@ -164,7 +165,7 @@ Partial Class Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 12.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(619, 369)
+        Me.ClientSize = New System.Drawing.Size(619, 311)
         Me.Controls.Add(Me.pageLabel)
         Me.Controls.Add(Me.PictureBox3)
         Me.Controls.Add(Me.PictureBox4)

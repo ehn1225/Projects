@@ -8,6 +8,8 @@
     'Blog : http://its319.tistory.com/
     'E-mail : ehn1225@seoultech.ac.kr
     '제작년일 : 2018-09-05
+    '유지보수일 : 2023.09.12 (파싱 코드 수정(공지사항 웹페이지 소스코드 변경으로 인한 수정))
+
     Private Sub PictureBox2_Click(sender As Object, e As EventArgs) Handles PictureBox2.Click
         Process.Start("http://www.seoultech.ac.kr/index.jsp")
     End Sub
@@ -15,7 +17,7 @@
         Process.Start("http://its319.tistory.com/")
     End Sub
     Private Sub Label2_Click(sender As Object, e As EventArgs) Handles Label2.Click
-        MessageBox.Show("개발 : ITS" & Chr(13) & "E-Mail : ehn1225@seoultech.ac.kr" & Chr(13) & "개발 및 배포일자 : 2018-09-**", "개발자정보", MessageBoxButtons.OK, MessageBoxIcon.Information)
+        MessageBox.Show("개발 : ITS" & Chr(13) & "E-Mail : ehn1225@seoultech.ac.kr" & Chr(13) & "개발 및 배포일자 : 2018-09-15", "개발자정보", MessageBoxButtons.OK, MessageBoxIcon.Information)
     End Sub
     Private Sub ListView1_DoubleClick(sender As Object, e As EventArgs) Handles ListView1.DoubleClick
         Process.Start(ListView1.Items(ListView1.FocusedItem.Index).SubItems(4).Text & ListView1.Items(ListView1.FocusedItem.Index).SubItems(5).Text)
@@ -137,20 +139,25 @@
         ListView1.Items.Clear()
 
         Dim temp As String
-        Dim countnotice As Integer
-
+        Dim countnotice, div_minus As Integer
+        div_minus = 1
         Winhttp.Open("GET", Url)
         Winhttp.Send()
         countnotice = UBound(Split(Winhttp.ResponseText, "<tr class=""body_tr"">")) '공지사항의 개수를 받아옴.]
         If ComboBox1.SelectedIndex < 3 And Not countnotice = 0 Then
             For i = 1 To countnotice
                 temp = Split(Split(Winhttp.ResponseText, "<tr class=""body_tr"">")(i), "</tr>")(0) 'source에 공지사항을 받아옴.
+                If (UBound(Split(temp, "div")) > 1) Then
+                    div_minus = 2
+                    Continue For
+                End If
                 ListView1.Items.Add(i)
-                ListView1.Items(i - 1).SubItems.Add(Split(Split(temp, ">")(4 + UBound(Split(temp, "ico_notice_ko.gif"))), "<")(0))
-                ListView1.Items(i - 1).SubItems.Add(Split(Split(temp, "<td style=""text-align: center;"">")(3), "</td>")(0)) '게시일자
-                ListView1.Items(i - 1).SubItems.Add(Split(Split(temp, "<td style=""text-align: center;"">")(4), "</td>")(0)) '게시자
-                ListView1.Items(i - 1).SubItems.Add(Url)
-                ListView1.Items(i - 1).SubItems.Add(Split(Split(temp, "<a href='")(1), "'>")(0))
+                Dim inta As Integer = UBound(Split(temp, "ico_notice_ko"))
+                ListView1.Items(i - div_minus).SubItems.Add(Split(Split(temp, ">")(4 + inta), "</a>")(0)) '게시글 제목
+                ListView1.Items(i - div_minus).SubItems.Add(Split(Split(temp, "<td class=""dn5"" style=""text-align: center;"">")(1), "</td>")(0)) '게시일자
+                ListView1.Items(i - div_minus).SubItems.Add(Split(Split(temp, "<td class=""dn4"" style=""text-align: center;"">")(1), "</td>")(0)) '게시자
+                ListView1.Items(i - div_minus).SubItems.Add(Url)
+                ListView1.Items(i - div_minus).SubItems.Add(Split(Split(temp, "<a href='")(1), "'>")(0))
             Next
 
         ElseIf ComboBox1.SelectedIndex >= 3 And Not countnotice = 0 Then
@@ -158,8 +165,8 @@
                 temp = Split(Split(Winhttp.ResponseText, "<tr class=""body_tr"">")(i), "</tr>")(0) 'temp에 공지사항을 받아옴.
                 ListView1.Items.Add(i)
                 ListView1.Items(i - 1).SubItems.Add(Split(Split(temp, ">")(5 + UBound(Split(temp, "ico_notice_ko.gif"))), "<")(0))
-                ListView1.Items(i - 1).SubItems.Add(Split(Split(temp, "<td class=""body_col_regdate"" align=""center"">")(1), "</td>")(0))
-                ListView1.Items(i - 1).SubItems.Add(Split(Split(temp, "<td class=""body_col_user"" align=""center"">")(2), "</td>")(0))
+                ListView1.Items(i - 1).SubItems.Add(Split(Split(temp, "<td class=""body_col_regdate dn5"" align=""center"">")(1), "</td>")(0))
+                ListView1.Items(i - 1).SubItems.Add(Split(Split(temp, "<td class=""body_col_user dn4"" align=""center"">")(1), "</td>")(0))
                 ListView1.Items(i - 1).SubItems.Add(Url)
                 ListView1.Items(i - 1).SubItems.Add(Split(Split(temp, "<a href='")(1), "'>")(0))
             Next
@@ -181,9 +188,5 @@
             pageLabel.Text = Int(pageLabel.Text) - 1
             Roadpage(Url & "?bidx=" & Url_Num & "&bnum=" & Url_Num & "&allboard=false&page=" & pageLabel.Text & "&size=9&searchtype=1&searchtext=")
         End If
-    End Sub
-
-    Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
-
     End Sub
 End Class

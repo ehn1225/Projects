@@ -8,6 +8,7 @@ Public Class Form1
     'E-mail : ehn1225@seoultech.ac.kr
     '제작년일 : 2019.03.06
     '수정 : 2022.05.16(홈페이지 소스코드 변경에 따른 파싱 소스 수정)
+    '2차 수정 : 2023.09.12 (홈페이지 소스코드 변경에 따른 파싱 소스 수정)
 
     Dim Winhttp As New WinHttp.WinHttpRequest
     Dim listview_page(7) As Integer
@@ -168,6 +169,9 @@ Public Class Form1
                 For i = loopstart To counttotalnotice
                     Dim Listview_index As Integer = listview(call_listview_num).Items.Count
                     temp = Split(Split(Winhttp.ResponseText, "<tr class=""body_tr"">")(i), "</tr>")(0) 'temp에 게시글 하나 읽어옴.
+                    If (UBound(Split(temp, "div")) > 1) Then
+                        Continue For
+                    End If
                     If (loopstart = 1 And i < countnotice) Then '공지사항이면 "공지", 아니면 번호 출력
                         listview(call_listview_num).Items.Add("공지")
                         listview(call_listview_num).Items(Listview_index).UseItemStyleForSubItems = False
@@ -175,6 +179,7 @@ Public Class Form1
                     Else
                         listview(call_listview_num).Items.Add(Split(Split(temp, "<td class=""dn1"" style=""text-align: center;"">")(1), "</td>")(0))
                     End If
+
                     Dim title_temp As String = Split(Split(temp, "<td  class=""tit dn2"">")(1), "</td>")(0)
                     listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(title_temp, "'>")(1), "</a")(0)) '게시글 제목
                     listview(call_listview_num).Items(Listview_index).SubItems.Add(Split(Split(temp, "<td class=""dn5"" style=""text-align: center;"">")(1), "</td>")(0)) '게시일자
@@ -511,17 +516,5 @@ Public Class Form1
         Label12.BackColor = My.Settings.Cus_color3
         Label13.BackColor = My.Settings.Cus_color4
         Label14.BackColor = My.Settings.Cus_color5
-    End Sub
-
-    Private Sub ChromeThemeContainer1_Click(sender As Object, e As EventArgs)
-
-    End Sub
-
-    Private Sub ChromeThemeContainer1_Click_1(sender As Object, e As EventArgs) Handles ChromeThemeContainer1.Click
-
-    End Sub
-
-    Private Sub ChromeTabcontrol1_SelectedIndexChanged(sender As Object, e As EventArgs) Handles ChromeTabcontrol1.SelectedIndexChanged
-
     End Sub
 End Class
