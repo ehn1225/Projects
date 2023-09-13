@@ -21,9 +21,11 @@
 - 도서 반납
 
 ## 실행 화면
-- 메인 화면 - 사용자 화면
+- 메인 화면 - 사용자
     - <img src="https://github.com/ehn1225/Projects/assets/5174517/0741c87b-bab4-4b55-b8bd-f42ba6781f41" width="700"/>
-- 메인 화면 - 관리자 화면
+- 메인 화면 - 관리자
     - <img src="https://github.com/ehn1225/Projects/assets/5174517/dc26be1e-3ce2-4e8b-b6fc-2a3031d69197" width="700"/>
+- 사용자 도서 대출
+    - <img src="https://github.com/ehn1225/Projects/assets/5174517/7ba93625-2208-464b-9362-aabfd615a079" width="700"/>
 - 사용자 목록 확인 기능
     - <img src="https://github.com/ehn1225/Projects/assets/5174517/c9949343-c488-43c1-9b5e-cd1991e3059f" width="700"/>
